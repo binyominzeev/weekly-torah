@@ -172,6 +172,9 @@ h1{font-size:1.25rem;margin:0}
         cards.append(card)
     tail = """
   </div>
+  <div class="footer-note" style="text-align:center;margin-top:32px;font-size:9px;">
+    Powered by <a href="https://github.com/binyominzeev/weekly-torah" target="_blank" rel="noopener noreferrer" style="color:#444;text-decoration:underline dotted;">Weekly Torah</a>
+  </div>
 </div>
 </body>
 </html>
