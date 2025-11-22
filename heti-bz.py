@@ -28,7 +28,7 @@ if os.path.exists(CONFIG_PATH):
 else:
     FTP_HOST = FTP_USER = FTP_PASS = FTP_PATH = None
 
-YOUTUBE_API_KEY = "AIzaSyC8YiUWDALdTthO3nBiHosKbGymNKpyL7M"  # vagy hagyd üresen, ha nem kell
+YOUTUBE_API_KEY = cfg.get("YOUTUBE_API_KEY")
 # ====================================
 
 YOUTUBE_VIDEO_ID_RE = re.compile(
